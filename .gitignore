@@ -1,0 +1,31 @@
+# ----------------------------------------
+# Build and temporary files
+# ----------------------------------------
+# Ignore object files and executables
+*.o
+*.exe
+# Ignore common build output directories
+/build/
+/dist/
+
+# ----------------------------------------
+# Log and data files
+# ----------------------------------------
+# Ignore log files
+*.log
+# Ignore temporary and cache files
+*.tmp
+__pycache__/
+
+# ----------------------------------------
+# Editor and operating system files
+# ----------------------------------------
+# Ignore files from the macOS operating system
+.DS_Store
+# Ignore files from the Windows operating system
+Thumbs.db
+# Ignore user-specific IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
